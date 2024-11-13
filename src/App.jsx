@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Services from './pages/Services';
-import Dth from './pages/Dth';
+import Dth from './pages/services/Dth';
 
 function App() {
   return (
