@@ -9,7 +9,7 @@ const Guide = () => {
     }
   return (
     <>
-      <div className="flex justify-center mt-10 pb-6 bg-purple-900">
+      <div className="flex justify-center mt-10 pb-24 bg-purple-900">
         {/* Set the src to KhaltiMobile */}
         <img className='rounded-[35px] mt-16' src={KhaltiMobile} alt="Khalti Mobile" />
         <div className="instruction ml-24 mt-16 flex-col text-white">
@@ -51,7 +51,8 @@ const Guide = () => {
               <div className="w-6 h-6 bg-purple-900 border-4 border-white rounded-full mr-4"></div>
               <div onClick={handleVisible} className="flex flex-col">
                 <span className="text-xl font-semibold">PROVIDE DETAILS</span>
-                <p className={`${isVisible ? 'block' : 'hidden'}`} >Enter CAS/Chip/Account Number and fill the required amount and there you go!</p>
+                <p  >Enter CAS/Chip/Account Number and fill the required amount and there you go!</p>
+                {/* className={`${isVisible ? 'block' : 'hidden'}`} */}
               </div>
             </li>
           </ul>

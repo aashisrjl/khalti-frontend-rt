@@ -5,7 +5,7 @@ import phone from '../../assets/tollfree.png'
 const Header = () => {
   return (
     <>
-    <div className="header flex justify-between p-2 bg-purple-950 text-white">
+    <div className="header flex justify-between p-2 bg-purple-950 text-white sticky top-0">
     <div className="left flex gap-2 ml-[50px]">
         <img height="25px" width="25px" src={phone} />
         <p>9847979997</p>

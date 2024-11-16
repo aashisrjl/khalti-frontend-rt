@@ -20,7 +20,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="main flex justify-around items-center bg-white gap-7 p-3 relative z-10"> {/* Ensure z-index here */}
+    <div className="main flex justify-around items-center bg-white gap-7 p-3 sticky top-[42px] z-10"> {/* Ensure z-index here */}
       <div className="img ml-8">
         <img height="300px" width="100px" src={khaltiLogo} alt="KhaltiLogo" />
       </div>

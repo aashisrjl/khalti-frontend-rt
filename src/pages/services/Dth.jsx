@@ -3,6 +3,7 @@ import Services from '../Services'
 import Navbar from '../component/Navbar'
 import Header from '../component/header'
 import Guide from './Guide'
+import Faq from './Faq'
 
 const Dth = () => {
   return (
@@ -11,6 +12,7 @@ const Dth = () => {
     < Navbar />
     < Services />
     < Guide />
+    < Faq /> 
       
     </>
   )
