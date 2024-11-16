@@ -4,6 +4,9 @@ import Navbar from '../component/Navbar'
 import Header from '../component/header'
 import Guide from './Guide'
 import Faq from './Faq'
+import Whykhalti from './Whykhalti'
+import Video from './Video'
+import DthBody from './DthBody'
 
 const Dth = () => {
   return (
@@ -11,8 +14,11 @@ const Dth = () => {
     < Header />
     < Navbar />
     < Services />
+    < DthBody />
     < Guide />
     < Faq /> 
+    < Whykhalti />
+    < Video />
       
     </>
   )
