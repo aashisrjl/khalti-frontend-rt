@@ -24,7 +24,7 @@ const Service = () => {
         {services.map((service, index) => (
           <div key={index} className="flex flex-col items-center text-white">
             {/* Make Icon Clickable by Wrapping with Link */}
-            <Link to={service.route} className="w-16 h-16 flex items-center justify-center rounded-full bg-blue-100 text-3xl mb-2">
+            <Link to={service.route} className="w-16 h-16 flex items-center justify-center rounded-full bg-blue-100 text-3xl mb-2 grayscale">
               {service.icon}
             </Link>
             {/* Icon Name Button */}

@@ -4,7 +4,7 @@ import dth from '../../assets/dth-body.svg'
 const DthBody = () => {
   return (
     <>
-    <div className="dth flex justify-center gap-16 pt-24 pb-32 ">
+    <div className="dth flex flex-shrink justify-center gap-16 pt-24 pb-32 ">
         <img height="600" width="600" src={dth} alt="" />
         <div className="contain flex flex-col mt-10">
             <h2 className='font-extrabold text-purple-800 text-4xl font-serif'>DTH TV Recharge on <br /> the go using Khalti</h2>

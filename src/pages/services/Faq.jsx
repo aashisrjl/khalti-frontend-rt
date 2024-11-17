@@ -20,7 +20,7 @@ const Faq = () => {
         </div>
       </div>
 
-      <div className="faq-section mt-16 flex flex-col text-center mt-24" >
+      <div className="faq-section  flex flex-col text-center mt-24" >
         <h2 className="text-2xl font-bold text-purple-700 mb-6">FAQs</h2>
         <div className="faq-item mb-4">
           <details className="text-left p-3 border-b border-gray-300 cursor-pointer">

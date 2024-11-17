@@ -11,25 +11,25 @@ const Whykhalti = () => {
         
 
             <div className="item flex flex-col text-center">
-            <span className='text-4xl mb-5'>🎁</span>
+            <span className='text-4xl mb-5 grayscale'>🎁</span>
             <h3>Cash backs on </h3>
                 <h3> transaction</h3>
             </div>
 
             <div className="item flex flex-col text-center">
-            <span className='text-4xl mb-5'>🖥</span>
+            <span className='text-4xl mb-5 grayscale'>🖥</span>
             <h3 >An easy to </h3>
            <h3 > use interface</h3>
             </div>
 
             <div className="item flex flex-col text-center">
-            <span className='text-4xl mb-5'>🔐</span>
+            <span className='text-4xl mb-5 grayscale'>🔐</span>
             <h3>Safe & Reliable </h3>
             <h3> transactions</h3>
             </div>
 
             <div className="item flex flex-col text-center">
-            <span className='text-4xl mb-5'>⚙</span>
+            <span className='text-4xl mb-5 grayscale'>⚙</span>
             <h3>Detailed </h3>
             <h3>Transaction Reports</h3>
             </div>
