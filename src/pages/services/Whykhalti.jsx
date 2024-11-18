@@ -5,7 +5,7 @@ const Whykhalti = () => {
   return (
     <>
     <div className="body bg-[url('/bg-why.jpg')] bg-cover w-screen flex flex-col justify-center backdrop-blur-2xl text-white">
-        <h1 className='text-center mt-20 mb-24 text-4xl font-bold'>Why use Khalti ?</h1>
+        <h1 className='text-center mt-20 mb-24 text-4xl font-bold'> Why use Khalti ?</h1>
        
         <div className="con flex gap-36 justify-center pb-24 font-bold">
         
